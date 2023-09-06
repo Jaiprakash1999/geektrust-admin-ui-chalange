@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    padding: 12px 0px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-top: 1px solid rgb(224, 224, 224);
+}
+.title {
+    width: 20%;
+}
+.header_container {
+    display: flex;
+    position: fixed;
+    width: 100%;
+}
+.search {
+    width: 99%;
+    padding: 8px;
+    border-radius: 4px;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.user {
+    display: flex;
+    align-items: center;
+    padding: 8px 0px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-top: 1px solid rgb(224, 224, 224);
+}
