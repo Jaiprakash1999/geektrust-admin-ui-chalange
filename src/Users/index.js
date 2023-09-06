@@ -3,9 +3,6 @@ import styles from "./styles.module.css";
 
 const Users = () => {
     const { data } = useGetUserData();
-
-    console.log(data, "data");
-
     return (
         <div className={styles.container}>
             <header className={styles.header_container}>
